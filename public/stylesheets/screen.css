@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #131313 url(../images/boltanium-bg.png) no-repeat scroll center 0;
+}
+
+#boltanium {
+  background: transparent url(../images/boltanium-element.png) no-repeat scroll 0 0;
+  width: 233px;
+  height: 282px;
+  margin: 140px auto 0;
+}
+
+nav {
+  position: relative;
+  left: 83px;
+  top: 200px;
+}
+
+nav a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  margin: 0 12px 0 0;
+}
+
+#twitter {
+  background: transparent url(../images/nav-bg.png) no-repeat scroll 0 0;
+}
+
+#twitter:hover {
+  background: transparent url(../images/nav-bg.png) no-repeat scroll 0 -30px;
+}
+
+#github {
+  background: transparent url(../images/nav-bg.png) no-repeat scroll -33px 0;
+}
+
+#github:hover {
+  background: transparent url(../images/nav-bg.png) no-repeat scroll -33px -30px;
+}

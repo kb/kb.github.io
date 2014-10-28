@@ -1,0 +1,107 @@
+body {
+  background-color: #fff;
+  position: relative;
+}
+
+section {
+  padding-top: 80px;
+  margin-bottom: -40px;
+}
+
+#masthead div.inner, #footer div.inner {
+  background: transparent url(../images/bg.gif) top center;
+  padding: 45px 0;
+  -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#masthead h1,
+#footer h1,
+#masthead p,
+#footer p {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#masthead p a,
+#footer p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#masthead {
+  margin-top: 40px;
+}
+
+#masthead h1,
+#masthead p {
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+#masthead h1 {
+  font-size: 54px;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+#masthead p {
+  font-weight: 300;
+}
+
+#masthead p.lead {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#footer {
+  margin-top: 80px;
+}
+
+#footer p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, .8)
+}
+
+#footer p.right {
+  float: right;
+}
+
+/* Special grid styles
+-------------------------------------------------- */
+.show-grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.show-grid .column, .show-grid .columns {
+  text-align: center;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* Ratings
+-------------------------------------------------- */
+
+.five {
+  background-color: #ff3333;
+}
+
+.four {
+  background-color: #ff8a37;
+}
+
+.three {
+  background-color: #ffff7d;
+}
+
+.two {
+  background-color: #007feb;
+}
+
+.one {
+
+}
